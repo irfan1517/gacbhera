@@ -10,11 +10,11 @@ const Navbar = () => {
       
       {/* Menu Links */}
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-        <li><a href="/" onClick={() => setIsOpen(false)}>Home</a></li>
-        <li><a href="/faculty" onClick={() => setIsOpen(false)}>Faculty Information</a></li>
+        <li><link to="/" onClick={() => setIsOpen(false)}>Home</a></li>
+        <li><link to="/faculty" onClick={() => setIsOpen(false)}>Faculty Information</a></li>
         
-        <li><a href="/contact" onClick={() => setIsOpen(false)}>Contact</a></li>
-        <li><a href="/attendance" onClick={() => setIsOpen(false)}>Mark Attendance</a></li>
+        <li><link to="/contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+        <li><link to="/attendance" onClick={() => setIsOpen(false)}>Mark Attendance</a></li>
       </ul>
 
       {/* Hamburger Icon */}
